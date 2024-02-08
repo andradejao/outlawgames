@@ -1,0 +1,41 @@
+Semântica (TAGs com significado)
+<header></header>  (Cabeçalho do site)
+<nav></nav> (Menu do site)
+<main></main>  (Conteúdo principal "destaque" do site só 1 por página)
+<section></section>  (Contéudo do site - 1 página pode ter várias seções)
+<footer></footer>  (Rodapé do site)
+
+Tags não semânticas
+<div></div>   (divisão do layout)
+<span></span>  (exceção a formatação de um determinado conteúdo)
+
+Identificadores:
+# (id) identificar de forma única uma TAG (1a letra em caixa baixa)
+. (Classe) reutilizar a identificação (1a letra em caixa alta)
+Obs: Não usar caracteres especiais e espaço para nomes de identificadores
+     Usar um nome que represente o tipo de conteúdo/código a ser programado
+
+
+______________________________________________________________
+<a href=""></a> Criar um link
+ - páginas internas (menu)
+ - páginas externas (outros sites)
+ - imagem clicável
+ - link entre conteúdo da página
+
+<p></p> Páragrafo
+<input type="checkbox">  insere uma caixa de check
+<label for> -> associar a um elemento html
+<ul></ul> Cria uma lista com bullets
+<ol></ol> Cria uma lista numérica
+<li></li> Ítens da lista
+
+&#x0000 -> usar um símbolo unicode
+0000 -> código do símbolo
+
+
+
+
+
+
+
