@@ -1,3 +1,4 @@
+![GitHub License](https://img.shields.io/github/license/andradejao/outlawgames)
 # Outlaw Games
 Esse repositório hospedará o meu primeiro projeto de site criado https://andradejao.github.io/outlawgames/
 ## Autor
