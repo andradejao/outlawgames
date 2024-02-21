@@ -3,6 +3,16 @@ Folha de estilo do site outlawgames.com
 @author João Andrade
 */
 
+/* importar fontes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* variáveis globais */
+:root {
+    --vermelhoLayout: #B30000;
+    --brancoLayout: #ffffff;
+}
+
 /* CSS RESET */
 * {
     margin: 0;
@@ -10,43 +20,98 @@ Folha de estilo do site outlawgames.com
     border: 0;
     
 }
-/* importar fontes */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-
+/* LAYOUT */
     html {
         scroll-behavior: smooth;
     }
 
 body {
-    font-family: "Open Sans";
+    font-family: "Oswald", sans-serif;
     font-size: 1em;
+}
 
+.Container {
+    margin: 0 auto;
+    padding: 30px 15px 30px 15px;
+}
+
+
+.Flex {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 /* Smartphone portrait */
 
+/* */
+
+#logo img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    
+}
+
+
+/* RODAPÉ */
+footer{
+    background-color: var(--vermelhoLayout);
+    color: var(--brancoLayout);
+    text-align: center;
+}
+
+#social {
+   margin-bottom: 10px;
+  
+    
+}
+#copyright {
+   
+      
+}
+
 /* Smartphone landscape */
 @media (min-width: 576px) {
-  
+    .Container {
+        max-width: 540px;
+    } 
+    .Flex {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }     
+    #social {
+        margin-bottom: 0;
 }
 /* Tablet portrait */
 @media (min-width: 768px) {
-    
+    .Container {
+        max-width: 720px;
+    }
 }
 
 /* Tablet landscape */
 @media (min-width: 992px) {
- 
+    .Container {
+        max-width: 960px;
+    }
 }
 
-/* PC ou Notebook ruim */
+/* PC ou Notebook ruim (HD-)*/
 @media (min-width: 1200px) {
- 
+    .Container {
+        max-width: 1140px;
+   }
+
+   }
 }
 
 /* PC ou Notebook ou Tv FULL HD+ */
 @media (min-width: 1400px) {
+    .Container {
+        max-width: 1360px;
+    }
 
 }
