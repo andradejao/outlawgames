@@ -11,6 +11,8 @@ Folha de estilo do site outlawgames.com
 :root {
     --vermelhoLayout: #B30000;
     --brancoLayout: #ffffff;
+    --backgroundCard: #f1f3f1;
+    --cinzaText: #434343;
 }
 
 /* CSS RESET */
@@ -34,24 +36,65 @@ body {
 .Container {
     margin: 0 auto;
     padding: 30px 15px 30px 15px;
+
 }
 
+.Flex, .FlexMenu {
+    display: flex;
+    justify-content: space-between;
+}
 
 .Flex {
-    display: flex;
     flex-direction: column;
-    
 }
 
-/* Smartphone portrait */
+.Card {
+    margin-top: 30px;
+    width: 338px;
+    height: 520px;
+    background-color: var(--backgroundCard);
+    border: 1px solid var(--vermelhoLayout);
+    border-radius: 25px;
+    text-align: center;
+}
 
-/* */
+.Card img {
+    border-radius: 25px 25px 0px 0px;
+}
+
+.Card h3{
+    margin: 15px 30px 0px 30px;
+}
+
+.Card p{
+    padding: 10px 10px 50px 15px;
+    text-align: left;
+    color: var(--cinzaText);
+
+}
+
+.Button {
+    text-decoration: none;
+    background-color: var(--vermelhoLayout);
+    color: var(--brancoLayout);
+    padding: 10px 90px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+
+/* Smartphone portrait */
+/* Cabeçalho */
+header {
+    height: 90px;
+    background-color: black
+}
 
 #logo img {
-    width: 100px;
-    height: 100px;
-    background-color: grey;
-    
+    width: 90px;
+    height: 90px;
+
 }
 
 
@@ -64,18 +107,21 @@ footer{
 
 #social {
    margin-bottom: 10px;
-  
     
-}
-#copyright {
-   
-      
 }
 
 /* Smartphone landscape */
 @media (min-width: 576px) {
+    /* Cabeçalho */
+
     .Container {
         max-width: 540px;
+    }
+
+    header {
+        max-width: 540px;
+        margin: auto;
+    }
     } 
     .Flex {
         flex-direction: row-reverse;
@@ -90,12 +136,28 @@ footer{
     .Container {
         max-width: 720px;
     }
+    /* Cabeçalho */
+
+    header{
+        max-width: 720px;
+        height: 145px;
+
+    }
+    #logo img {
+        width: 150px;
+        height: 150px;
+
+    }
 }
 
 /* Tablet landscape */
 @media (min-width: 992px) {
     .Container {
         max-width: 960px;
+    }
+    header {
+        max-width: 960px;
+
     }
 }
 
@@ -104,14 +166,22 @@ footer{
     .Container {
         max-width: 1140px;
    }
+   header {
+    max-width: 1140px;
+
+}
 
    }
-}
+
 
 /* PC ou Notebook ou Tv FULL HD+ */
 @media (min-width: 1400px) {
     .Container {
         max-width: 1360px;
+    }
+    header {
+        max-width: 1360px;
+
     }
 
 }
