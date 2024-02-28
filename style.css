@@ -23,7 +23,7 @@ Folha de estilo do site outlawgames.com
     
 }
 
-/* LAYOUT */
+/* ------------LAYOUT------------ */
     html {
         scroll-behavior: smooth;
     }
@@ -83,17 +83,68 @@ body {
     font-weight: 700;
 }
 
+/* Topo */
+
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
 
 /* Smartphone portrait */
 /* Cabeçalho */
 header {
     height: 90px;
-    background-color: black
+
 }
 
 #logo img {
     width: 90px;
     height: 90px;
+
+}
+
+#check {
+    display: none;
+}
+label {
+    font-size: 3em;
+    position: fixed;
+    top: 25px;
+    right: 3px;
+    color: rgba(67, 67, 67, 0.7);
+}
+
+nav ul {
+    position: fixed;
+    list-style: none;
+    background-color: rgba(67, 67, 67, 0.95);
+    height: 100vh;
+    top: 90px;
+    right: -70%; /* estratégia para recolher o menu */
+    width: 60%; 
+    transition: all 0.5s;
+}
+
+/* Ativar o checkbox referente ao ul (lista) */
+#check:checked~ul {
+    right: 0;
+
+}
+
+nav ul li {
+    border-bottom: 0.1px solid var(--brancoLayout);
+    text-align: center;
+    padding: 8px;
+    
+
+    
+}
+nav ul li a {
+    color: var(--vermelhoLayout);
+    text-decoration: none;
+    font-size: 1.3em;
+
 
 }
 
@@ -131,22 +182,32 @@ footer{
     #social {
         margin-bottom: 0;
 }
+
 /* Tablet portrait */
 @media (min-width: 768px) {
     .Container {
         max-width: 720px;
     }
     /* Cabeçalho */
-
     header{
         max-width: 720px;
         height: 145px;
 
     }
+    label {
+        font-size: 5em;
+        top: 25px;
+        right: 5px; 
+    }
     #logo img {
         width: 150px;
         height: 150px;
 
+    }
+    nav ul{
+        top: 145px;
+        right: -50%;
+        width: 50%;
     }
 }
 
@@ -170,8 +231,29 @@ footer{
     max-width: 1140px;
 
 }
+    label{
+        display: none;
+    }
+    nav ul {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: var(--brancoLayout);
+        margin: 70px;
+    }
+    nav ul li {
+        border: 0;
+        float: left;
+    }
+    nav ul li a {
+        color: black;
+    }
 
+    nav ul li a:hover {
+        color: var(--vermelhoLayout)
+    }
    }
+
 
 
 /* PC ou Notebook ou Tv FULL HD+ */
