@@ -4,8 +4,8 @@ Folha de estilo do site outlawgames.com
 */
 
 /* importar fontes */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap%22');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); 
 
 /* variáveis globais */
 :root {
@@ -146,9 +146,6 @@ nav ul li {
     border-bottom: 0.1px solid var(--brancoLayout);
     text-align: center;
     padding: 8px;
-    
-
-    
 }
 nav ul li a {
     color: var(--vermelhoLayout);
@@ -165,13 +162,12 @@ main {
     background-position: center;
     text-align: center;    
 }
-main h1, h2 {
-    color: var(--brancoLayout);
-}
+
 main h1 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 550;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
     margin-bottom: 30px;
+    color: var(--brancoLayout);
 }
 main h2 {
     display: none;
@@ -184,13 +180,13 @@ footer{
     background-color: var(--vermelhoLayout);
     color: var(--brancoLayout);
     text-align: center;
+    flex-direction: column;
 }
 
 #social {
    margin-bottom: 10px;
-   
-    
-    
+   flex-direction: column;
+
 }
 
 /* Smartphone landscape */
