@@ -83,6 +83,16 @@ body {
     font-weight: 700;
 }
 
+.Button2 {
+    text-decoration: none;
+    background-color: var(--brancoLayout);
+    color: var(--vermelhoLayout);
+    padding: 10px 90px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
 /* Topo */
 
 #topo {
@@ -145,6 +155,26 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.3em;
 
+}
+
+/* BANNER */
+main {
+    background: url(img/banner.jpg);
+    height: 50vh; /* vh é altura da tela */
+    background-size: cover;
+    background-position: center;
+    text-align: center;    
+}
+main h1, h2 {
+    color: var(--brancoLayout);
+}
+main h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 550;
+    margin-bottom: 30px;
+}
+main h2 {
+    display: none;
 
 }
 
@@ -181,6 +211,14 @@ footer{
         justify-content: space-between;
         align-items: center;
     }     
+    /* BANNER */
+    main {
+        height: 65vh;
+    }
+    main h1 {
+        font-size: 1.4em;
+    }
+
     #social {
         margin-bottom: 0;
 }
@@ -211,6 +249,18 @@ footer{
         right: -50%;
         width: 50%;
     }
+    /* BANNER */
+    main h1 {
+        font-size: 1.9em;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    main h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-bottom: 40px;
+    }
+
 }
 
 /* Tablet landscape */
@@ -255,7 +305,18 @@ footer{
         color: var(--vermelhoLayout)
     }
    }
+   /* BANNER */
+   main {
+    height: 65vh;
+   }
 
+   main h1 {
+    font-size: 3em;
+   }
+   main h2 {
+    font-size: 1.5em;
+    text-shadow: #000000 0.05em 0.05em 0.05em;
+   }
 
 
 /* PC ou Notebook ou Tv FULL HD+ */
