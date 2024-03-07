@@ -13,6 +13,7 @@ Folha de estilo do site outlawgames.com
     --brancoLayout: #ffffff;
     --backgroundCard: #f1f3f1;
     --cinzaText: #434343;
+    --pretoSombra: #000000;
 }
 
 /* CSS RESET */
@@ -73,7 +74,7 @@ body {
 
 }
 
-.Button {
+.Button { /* Botão do cartão */
     text-decoration: none;
     background-color: var(--vermelhoLayout);
     color: var(--brancoLayout);
@@ -83,7 +84,17 @@ body {
     font-weight: 700;
 }
 
-.Button2 {
+.Button:hover { /* Botão do cartão */
+    text-decoration: none;
+    background-color: var(--vermelhoLayout);
+    color: var(--brancoLayout);
+    padding: 10px 90px;
+    border-radius: 25px;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.Button2 { /* Botão do banner */
     text-decoration: none;
     background-color: var(--brancoLayout);
     color: var(--vermelhoLayout);
@@ -111,7 +122,6 @@ header {
 #logo img {
     width: 90px;
     height: 90px;
-
 }
 
 #check {
@@ -157,7 +167,7 @@ nav ul li a {
 /* BANNER */
 main {
     background: url(img/banner.jpg);
-    height: 50vh; /* vh é altura da tela */
+    height: 40vh; /* vh é altura da tela */
     background-size: cover;
     background-position: center;
     text-align: center;    
@@ -165,13 +175,13 @@ main {
 
 main h1 {
     font-family: "Orbitron", sans-serif;
-    font-weight: 500;
-    margin-bottom: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
     color: var(--brancoLayout);
+    font-size: 2em;
 }
 main h2 {
     display: none;
-
 }
 
 
@@ -212,7 +222,7 @@ footer{
         height: 65vh;
     }
     main h1 {
-        font-size: 1.4em;
+        font-size: 1.7em;
     }
 
     #social {
@@ -245,16 +255,21 @@ footer{
         right: -50%;
         width: 50%;
     }
+    nav ul li a {
+        font-size: 2.7em;
+    }
     /* BANNER */
     main h1 {
-        font-size: 1.9em;
-        font-weight: 700;
+        font-size: 2.3em;
+        font-weight: 600;
         margin-bottom: 25px;
     }
     main h2 {
         display: block;
-        font-size: 1.5em;
-        margin-bottom: 40px;
+        font-size: 1.7em;
+        margin-bottom: 50px;
+        color: var(--brancoLayout);
+        text-shadow: var(--pretoSombra) 0.05em 0.05em 0.05em;
     }
 
 }
@@ -282,6 +297,7 @@ footer{
     label{
         display: none;
     }
+
     nav ul {
         position: static;
         width: 100%;
@@ -294,13 +310,15 @@ footer{
         float: left;
     }
     nav ul li a {
-        color: black;
+        color: var(--pretoSombra);
+        font-size: 1.5em;
     }
 
     nav ul li a:hover {
-        color: var(--vermelhoLayout)
+        color: var(--vermelhoLayout);
     }
-   }
+
+
    /* BANNER */
    main {
     height: 65vh;
@@ -311,9 +329,9 @@ footer{
    }
    main h2 {
     font-size: 1.5em;
-    text-shadow: #000000 0.05em 0.05em 0.05em;
+    text-shadow: var(--pretoSombra) 0.05em 0.05em 0.05em;
    }
-
+}
 
 /* PC ou Notebook ou Tv FULL HD+ */
 @media (min-width: 1400px) {
