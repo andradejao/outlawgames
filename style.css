@@ -184,6 +184,10 @@ main h2 {
     display: none;
 }
 
+.textbanner {
+    font-size: 3em;
+}
+
 
 /* RODAPÉ */
 footer{
@@ -248,7 +252,9 @@ footer{
     #logo img {
         width: 150px;
         height: 150px;
-
+    }
+    .textbanner {
+        font-size: 5em;
     }
     nav ul{
         top: 145px;
@@ -331,6 +337,7 @@ footer{
     font-size: 1.5em;
     text-shadow: var(--pretoSombra) 0.05em 0.05em 0.05em;
    }
+
 }
 
 /* PC ou Notebook ou Tv FULL HD+ */
