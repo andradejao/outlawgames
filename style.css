@@ -49,6 +49,13 @@ body {
     flex-direction: column;
 }
 
+.FlexServices {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .Card {
     margin-top: 30px;
     width: 338px;
@@ -104,19 +111,42 @@ body {
     font-weight: 900;
 }
 
+
+/* Section Serviços */
+.sectionServices {
+    background-color: grey;
+}
+
+#sectionTitle {
+    text-align: center;
+}
+
+.TopicosSection img {
+    border-radius: 70px;
+}
+
+.TopicosSection p {
+    text-align: center;
+}
+
+#sectionTitle h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
 /* Topo */
 
 #topo {
     position: fixed;
     right: 10px;
     bottom: 10px;
+
 }
 
 /* Smartphone portrait */
 /* Cabeçalho */
 header {
     height: 90px;
-
 }
 
 #logo img {
@@ -200,6 +230,8 @@ footer{
 #social {
    margin-bottom: 10px;
    flex-direction: column;
+
+/* Section Services */
 
 }
 
