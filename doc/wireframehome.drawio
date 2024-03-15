@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T20:20:58.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="EWiRz-qfGKMWVyNHIfqH" version="24.0.5" type="device">
+<mxfile host="app.diagrams.net" modified="2024-03-15T20:26:50.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="HaVfeMofxc46mxliSHJd" version="24.0.7" type="device">
   <diagram name="Página-1" id="vY-lGYGtIKJ3e2OXQE28">
-    <mxGraphModel dx="1354" dy="1776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1114" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,14 +70,11 @@
         <mxCell id="7AghOvcGH0yzOngB2njW-4" value="SECTION" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
           <mxGeometry x="215.5" y="400" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7AghOvcGH0yzOngB2njW-5" value="Propaganda youtube com QR code" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
+        <mxCell id="7AghOvcGH0yzOngB2njW-5" value="Propaganda youtube&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
           <mxGeometry x="142" y="440" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7AghOvcGH0yzOngB2njW-6" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.container_registry_image;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
-          <mxGeometry x="30" y="411" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="7AghOvcGH0yzOngB2njW-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/iconoir-vol-4/24/scan-qr-code-128.png" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
-          <mxGeometry x="467" y="400" width="70" height="70" as="geometry" />
+          <mxGeometry x="469" y="411" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="7AghOvcGH0yzOngB2njW-8" value="Algum título" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
           <mxGeometry x="190" y="496" width="180" height="40" as="geometry" />
@@ -97,7 +94,7 @@
         <mxCell id="7AghOvcGH0yzOngB2njW-16" value="Porque fazer manutenção preventiva em seu console?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
           <mxGeometry x="72.5" y="690" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7AghOvcGH0yzOngB2njW-17" value="Botão = &quot;Link para pag interna&quot;" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
+        <mxCell id="7AghOvcGH0yzOngB2njW-17" value="Botão = &quot;Link para video no yt&quot;" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
           <mxGeometry x="94.5" y="740" width="105.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7AghOvcGH0yzOngB2njW-18" value="CARD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
@@ -124,11 +121,14 @@
         <mxCell id="7AghOvcGH0yzOngB2njW-43" value="Personalização de Consoles e Controles" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
           <mxGeometry x="350" y="690" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7AghOvcGH0yzOngB2njW-44" value="Botão = &quot;Link para pag interna&quot;" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
+        <mxCell id="7AghOvcGH0yzOngB2njW-44" value="Botão" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
           <mxGeometry x="372.25" y="750" width="105.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7AghOvcGH0yzOngB2njW-45" value="CARD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
           <mxGeometry x="395" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UxMozyAkMpFQ8Sf6JBH7-2" value="338&lt;div&gt;265&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HBRSyWqXabjgZu4pq69E-15">
+          <mxGeometry x="463" y="604" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7AghOvcGH0yzOngB2njW-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HBRSyWqXabjgZu4pq69E-58" target="DInBFe4diad5LQZJRKSn-9" edge="1">
           <mxGeometry relative="1" as="geometry" />

@@ -56,6 +56,17 @@ body {
     justify-content: space-evenly;
 }
 
+.FlexSection {
+    display: flex;
+    align-items: center;
+}
+
+.FlexCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .Card {
     margin-top: 30px;
     width: 338px;
@@ -111,28 +122,22 @@ body {
     font-weight: 900;
 }
 
-
-/* Section Serviços */
-.sectionServices {
-    background-color: grey;
+.Buttonyt { /* Botão do youtube */
+    text-decoration: none;
+    background-color: var(--brancoLayout);
+    color: var(--vermelhoLayout);
+    padding: 10px 60px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-weight: 700;
 }
 
-#sectionTitle {
-    text-align: center;
-}
 
-.TopicosSection img {
-    border-radius: 70px;
-}
+/* Imagens da primeira section Mouse */
 
-.TopicosSection p {
-    text-align: center;
-}
+/* .TopicosSection img:hover { */
 
-#sectionTitle h2 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
+
 
 /* Topo */
 
@@ -235,6 +240,52 @@ footer{
 
 }
 
+/* Customização da Section Serviços */
+#sectionServices {
+    background-color: var(--pretoSombra);
+}
+
+#sectionTitle {
+    text-align: center;
+}
+
+.TopicosSection img {
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#sectionTitle h2 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: var(--brancoLayout);
+}
+
+/* Customização da section youtube */
+
+#youtube {
+    background-color: var(--vermelhoLayout);
+}
+
+#imagemyoutube {
+    display: none;
+}
+
+#textyoutube h2 {
+    font-size: 2.3em;
+    margin-bottom: 10px;
+}
+
+#textyoutube p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+#exclusivos {
+    color: var(--brancoLayout);
+    
+}
+
+
 /* Smartphone landscape */
 @media (min-width: 576px) {
     /* Cabeçalho */
@@ -310,6 +361,35 @@ footer{
         text-shadow: var(--pretoSombra) 0.05em 0.05em 0.05em;
     }
 
+    /* Section Serviços */
+
+    .TopicosSection img {
+    border-radius: 10px;
+    margin: 5px;
+    }
+
+    #sectionTitle h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: var(--brancoLayout);
+    }
+
+    /* Customizando section youtube */
+
+    #imagemyoutube {
+        display: block;
+    }
+    
+    #textyoutube h2 {
+        font-size: 2.9em;
+        margin-bottom: 10px;
+    }
+    
+    #textyoutube p {
+        font-size: 1.6em;
+        margin-bottom: 25px;
+    }
+
 }
 
 /* Tablet landscape */
@@ -369,6 +449,21 @@ footer{
     font-size: 1.5em;
     text-shadow: var(--pretoSombra) 0.05em 0.05em 0.05em;
    }
+
+   /* Customizando youtube */
+   #textyoutube h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#textyoutube p {
+    font-size: 1.6em;
+    margin-bottom: 25px;
+}
+
+#imagemyoutube img {
+    margin-left: 200px;
+}
 
 }
 
