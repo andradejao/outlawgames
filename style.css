@@ -43,6 +43,7 @@ body {
 .Flex, .FlexMenu {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .Flex {
@@ -60,6 +61,9 @@ body {
     display: flex;
     align-items: center;
 }
+
+/* Customização dos cards */
+
 
 .FlexCard {
     display: flex;
@@ -83,12 +87,14 @@ body {
 
 .Card h3{
     margin: 15px 30px 0px 30px;
+    font-size: 1.5em;
 }
 
 .Card p{
     padding: 10px 10px 50px 15px;
     text-align: left;
     color: var(--cinzaText);
+    font-size: 1em;
 
 }
 
@@ -132,11 +138,9 @@ body {
     font-weight: 700;
 }
 
-
-/* Imagens da primeira section Mouse */
-
-/* .TopicosSection img:hover { */
-
+.Container h2 {
+    text-align: center;
+}
 
 
 /* Topo */
@@ -173,22 +177,22 @@ label {
 nav ul {
     position: fixed;
     list-style: none;
-    background-color: rgba(67, 67, 67, 0.95);
+    background-color: rgba(255, 255, 255, 0.95);
     height: 100vh;
-    top: 90px;
+    top: 89px;
     right: -70%; /* estratégia para recolher o menu */
     width: 60%; 
     transition: all 0.5s;
+    
 }
 
 /* Ativar o checkbox referente ao ul (lista) */
 #check:checked~ul {
     right: 0;
-
 }
 
 nav ul li {
-    border-bottom: 0.1px solid var(--brancoLayout);
+    border-bottom: 0.1px solid var(--pretoSombra);
     text-align: center;
     padding: 8px;
 }
@@ -222,7 +226,6 @@ main h2 {
 .textbanner {
     font-size: 3em;
 }
-
 
 /* RODAPÉ */
 footer{
@@ -260,6 +263,7 @@ footer{
     color: var(--brancoLayout);
 }
 
+
 /* Customização da section youtube */
 
 #youtube {
@@ -273,6 +277,7 @@ footer{
 #textyoutube h2 {
     font-size: 2.3em;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 #textyoutube p {
@@ -285,6 +290,10 @@ footer{
     
 }
 
+/* Customizando título h2 do container */
+.Container h2 {
+    font-size: 2em;
+}
 
 /* Smartphone landscape */
 @media (min-width: 576px) {

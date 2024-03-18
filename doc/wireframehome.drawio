@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T20:26:50.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="HaVfeMofxc46mxliSHJd" version="24.0.7" type="device">
+<mxfile host="app.diagrams.net" modified="2024-03-18T16:46:48.417Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="0ncxA3y6Hk2j2KRwv3tU" version="24.0.7" type="device">
   <diagram name="Página-1" id="vY-lGYGtIKJ3e2OXQE28">
-    <mxGraphModel dx="1114" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,7 +100,7 @@
         <mxCell id="7AghOvcGH0yzOngB2njW-18" value="CARD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
           <mxGeometry x="117.5" y="550" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7AghOvcGH0yzOngB2njW-19" value="Aqui falará um pouco sobre os tipos de manutenções e serviços ofertados" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
+        <mxCell id="7AghOvcGH0yzOngB2njW-19" value="Alguns consoles" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
           <mxGeometry x="184" y="320" width="166" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7AghOvcGH0yzOngB2njW-20" value="" style="line;strokeWidth=2;html=1;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
@@ -127,7 +127,7 @@
         <mxCell id="7AghOvcGH0yzOngB2njW-45" value="CARD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
           <mxGeometry x="395" y="550" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UxMozyAkMpFQ8Sf6JBH7-2" value="338&lt;div&gt;265&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HBRSyWqXabjgZu4pq69E-15">
+        <mxCell id="UxMozyAkMpFQ8Sf6JBH7-2" value="338&lt;div&gt;265&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HBRSyWqXabjgZu4pq69E-15" vertex="1">
           <mxGeometry x="463" y="604" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7AghOvcGH0yzOngB2njW-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HBRSyWqXabjgZu4pq69E-58" target="DInBFe4diad5LQZJRKSn-9" edge="1">
@@ -148,7 +148,7 @@
         <mxCell id="DInBFe4diad5LQZJRKSn-9" value="SECTION" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="160" y="-870" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DInBFe4diad5LQZJRKSn-10" value="Aqui falará um pouco sobre os tipos de manutenções e serviços ofertados" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="DInBFe4diad5LQZJRKSn-10" value="Alguns consoles" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="134" y="-820" width="166" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DInBFe4diad5LQZJRKSn-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
