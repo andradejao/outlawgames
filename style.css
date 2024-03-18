@@ -238,9 +238,6 @@ footer{
 #social {
    margin-bottom: 10px;
    flex-direction: column;
-
-/* Section Services */
-
 }
 
 /* Customização da Section Serviços */
@@ -265,7 +262,6 @@ footer{
 
 
 /* Customização da section youtube */
-
 #youtube {
     background-color: var(--vermelhoLayout);
 }
@@ -294,6 +290,38 @@ footer{
 .Container h2 {
     font-size: 2em;
 }
+
+/* Customizando Página Sobre */
+
+/* Imagem Sobre */
+#imgsobre img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin-bottom: 20px;
+}
+
+#imgsobre {
+    text-align: center;
+}
+
+/* Texto Sobre */
+
+#outlawtxt {
+    color: var(--vermelhoLayout);
+}
+
+#txtsobre h2 {
+    font-size: 1.9em;
+    margin-bottom: 20px;
+}
+
+
+#txtsobre p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
 
 /* Smartphone landscape */
 @media (min-width: 576px) {
