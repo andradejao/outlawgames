@@ -138,6 +138,8 @@ body {
     font-weight: 700;
 }
 
+
+
 .Container h2 {
     text-align: center;
 }
@@ -147,7 +149,7 @@ body {
 
 #topo {
     position: fixed;
-    right: 10px;
+    left: 10px;
     bottom: 10px;
 
 }
@@ -427,6 +429,14 @@ footer{
         margin-bottom: 25px;
     }
 
+    /* Seção Sobre */
+    #txtsobre h2 {
+        font-size: 2.5em;
+    }
+    #txtsobre p {
+        font-size: 1.5em;
+    }
+
 }
 
 /* Tablet landscape */
@@ -500,6 +510,14 @@ footer{
 
 #imagemyoutube img {
     margin-left: 200px;
+}
+
+/* Seção Sobre */
+#txtsobre h2 {
+        font-size: 2.5em;
+}
+#txtsobre p {
+        font-size: 1.1em;
 }
 
 }
