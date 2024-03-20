@@ -266,6 +266,7 @@ footer{
 /* Customização da section youtube */
 #youtube {
     background-color: var(--vermelhoLayout);
+    height: 260px;
 }
 
 #imagemyoutube {
@@ -415,8 +416,17 @@ footer{
 
     /* Customizando section youtube */
 
+    #youtube {
+        height: 285px;
+    }
+
     #imagemyoutube {
         display: block;
+    }
+
+    #imagemyoutube img {
+        height: 200px;
+        width: 200px;
     }
     
     #textyoutube h2 {
@@ -510,6 +520,8 @@ footer{
 
 #imagemyoutube img {
     margin-left: 200px;
+    height: 220px;
+    width: 220px;
 }
 
 /* Seção Sobre */
