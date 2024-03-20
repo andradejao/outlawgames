@@ -139,7 +139,6 @@ body {
 }
 
 
-
 .Container h2 {
     text-align: center;
 }
@@ -149,10 +148,11 @@ body {
 
 #topo {
     position: fixed;
-    left: 10px;
-    bottom: 10px;
-
+    right: 10px;
+    bottom: 1px;
+    opacity: 0.7;
 }
+
 
 /* Smartphone portrait */
 /* Cabeçalho */
