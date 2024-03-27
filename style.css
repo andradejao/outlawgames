@@ -92,11 +92,12 @@ body {
 
 .Card p{
     padding: 10px 10px 50px 15px;
-    text-align: left;
+    text-align: center;
     color: var(--cinzaText);
     font-size: 1em;
 
 }
+
 
 .Button { /* Botão do cartão */
     text-decoration: none;
