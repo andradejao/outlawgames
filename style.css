@@ -303,6 +303,8 @@ footer{
     width: 300px;
     border-radius: 150px;
     margin-bottom: 20px;
+    border: solid var(--vermelhoLayout);
+    
 }
 
 #imgsobre {
