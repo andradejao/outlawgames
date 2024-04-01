@@ -328,6 +328,18 @@ footer{
     margin-top: 10px;
 }
 
+/* banner página ps4 */
+
+#imgps4 img {
+    height: 40vh; /* vh é altura da tela */
+    width: 50vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+}
+
+
+
 
 /* Smartphone landscape */
 @media (min-width: 576px) {
