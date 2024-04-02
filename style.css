@@ -330,14 +330,20 @@ footer{
 
 /* banner página ps4 */
 
-#imgps4 img {
-    height: 40vh; /* vh é altura da tela */
-    width: 50vh;
-    background-size: cover;
-    background-position: center;
-    text-align: center; 
+#imgps4 {
+    text-align: center;
 }
 
+#imgps4 img {
+    height: 250px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#imgps4 h2 {
+    
+}
 
 
 
