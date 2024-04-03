@@ -328,7 +328,7 @@ footer{
     margin-top: 10px;
 }
 
-/* banner página ps4 */
+/* img página ps4 */
 
 #imgps4 {
     text-align: center;
@@ -341,10 +341,38 @@ footer{
     border-radius: 10px;
 }
 
-#imgps4 h2 {
-    
-}
+/* Section do sub-título da página ps4 */
+    #txtcontent {
+        text-align: center;
+    }
+    #txtcontent h3 {
+        margin-bottom: 5px;
+        color: var(--vermelhoLayout);
+    }
+    #txtcontent p {
+        text-align: justify;
+        color: var(--cinzaText);
+        font-size: 1em;
+    }
 
+/* Section texto dos serviços */
+    .txtservicos {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 30px;
+    }
+    .conteudoflex h4{
+        font-size: 1.2em;
+        margin-left: 16px;
+        margin-bottom: 1px;
+    }
+    .conteudoflex p {
+        font-size: 1em;
+    }
+    .simbolo {
+        color: var(--vermelhoLayout);
+    }
 
 
 /* Smartphone landscape */
@@ -422,6 +450,7 @@ footer{
         text-shadow: var(--pretoSombra) 0.05em 0.05em 0.05em;
     }
 
+
     /* Section Serviços */
 
     .TopicosSection img {
@@ -467,6 +496,27 @@ footer{
     #txtsobre p {
         font-size: 1.5em;
     }
+
+/* Section do sub-título da página ps4 */
+
+#txtcontent h3 {
+    font-size: 1.7em;
+}
+#txtcontent p {
+    font-size: 1.4em;
+}
+
+    /* img página ps4 */
+
+    #imgps4 h2 {
+        font-size: 2.5em;
+    }
+    
+    #imgps4 img {
+        height: 400px;
+        width: 700px;
+    }
+
 
 }
 
@@ -553,6 +603,37 @@ footer{
         font-size: 1.1em;
 }
 
+/* Section do sub-título da página ps4 */
+
+#txtcontent h3 {
+    font-size: 1.7em;
+}
+#txtcontent p {
+    font-size: 1.4em;
+
+}
+
+    /* img página ps4 */
+
+    #imgps4 h2 {
+        font-size: 2.5em;
+    }
+    
+    #imgps4 img {
+        height: 400px;
+        width: 700px;
+    }
+
+        /* Section texto dos serviços */
+        .txtservicos {
+            display: flex;
+            flex-direction: row;
+            
+        }
+        
+        .conteudoflex2 {
+            color: x;
+        }
 }
 
 /* PC ou Notebook ou Tv FULL HD+ */
