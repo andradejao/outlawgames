@@ -556,6 +556,18 @@ footer{
         width: 700px;
     }
 
+    /* Customizando section youtube */
+
+    
+    .textzap h2 {
+        font-size: 2.9em;
+        margin-bottom: 10px;
+    }
+    
+    .textzap p {
+        font-size: 1.6em;
+        margin-bottom: 25px;
+    }
 
 }
 
@@ -677,6 +689,25 @@ footer{
     .conteudoflex {
         margin-left: 230px;
     }
+
+    /* Customizando zap */
+   .textzap h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+    .textzap p {
+    font-size: 1.6em;
+    margin-bottom: 25px;
+}
+
+    .imagemzap {
+    display: block;
+}
+    .imagemzap img {
+    margin-left: 600px;
+    height: 180px;
+    width: 180px;
+}
         
         
 }
