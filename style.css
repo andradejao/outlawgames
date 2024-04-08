@@ -191,7 +191,7 @@ label {
 nav ul {
     position: fixed;
     list-style: none;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(60, 60, 60, 0.95);
     height: 100vh;
     top: 89px;
     right: -70%; /* estratégia para recolher o menu */
@@ -214,6 +214,7 @@ nav ul li a {
     color: var(--vermelhoLayout);
     text-decoration: none;
     font-size: 1.3em;
+    font-weight: 900;
 
 }
 
