@@ -424,7 +424,12 @@ footer{
 }
 
 /* Minhas redes na página sobre */
-    
+    #mysocial h3 {
+        text-align: center;
+        font-size: 1.1em;
+        margin-bottom: 15px;
+        
+    }
 
 
 
