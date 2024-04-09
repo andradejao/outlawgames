@@ -63,6 +63,16 @@ body {
     align-items: center;
 }
 
+#FlexSobre {
+    display: flex;
+    flex-direction: row;
+}
+
+#FlexSobre2 {
+    display: flex;
+    flex-direction: row;
+}
+
 /* Customização dos cards */
 
 
