@@ -73,6 +73,7 @@ body {
     flex-direction: row;
 }
 
+
 /* Customização dos cards */
 
 
@@ -174,6 +175,7 @@ body {
     bottom: 1px;
     opacity: 0.7;
 }
+
 
 
 /* Smartphone portrait */
@@ -455,6 +457,50 @@ footer{
         font-weight: bolder;
     }
 
+    /* Formatação do formulário */
+   #formulario input[type="text"], 
+   #formulario input[type="email"],
+   #formulario input[type="tel"],
+   #formulario textarea {
+        margin-top: 7px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #cccccc;  
+    }
+    
+    #formulario input[type="submit"],
+    #formulario input[type="reset"] {
+        background-color: var(--vermelhoLayout);
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 1px;
+    }
+    
+    #formulario input[type="reset"] {
+        background-color: var(--vermelhoLayout);
+    }
+    
+    #formulario h2 {
+        text-align: center;
+        margin: 50px 0px 25px 0px;
+    }
+    
+    #formulario form {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0,0,0, 0.1,); 
+    }
+
+    /* Google Maps */
+    #maps2{
+        display: none;
+    }
 
 
 /* Smartphone landscape */
@@ -791,7 +837,15 @@ footer{
         font-size: 1.6em;
         margin-bottom: 10px;
     }
-        
+
+    /* Google Maps */
+    #maps1 {
+    display: none;
+    }
+    #maps2 {
+        display: block;
+        margin-left: 310px;
+    }
         
 }
 
