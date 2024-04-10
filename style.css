@@ -427,8 +427,32 @@ footer{
     #mysocial h3 {
         text-align: center;
         font-size: 1.1em;
-        margin-bottom: 15px;
-        
+        margin-bottom: 10px;
+    }
+
+    #imggithub {
+        height: 92px;
+        width: 92px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #imglinkedin {
+        height: 80px;
+        width: 80px;
+        margin-left: 6px;
+    }
+
+    #mysocial p {
+        display: flex;
+        align-items: center;
+        margin-left: 12px;
+        font-size: 1em;
+    }
+
+    #mysocial span {
+        color: var(--vermelhoLayout);
+        font-weight: bolder;
     }
 
 
@@ -588,6 +612,39 @@ footer{
         margin-bottom: 25px;
     }
 
+    /* Minhas redes na página sobre */
+    #mysocial h3 {
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    #imggithub {
+        height: 120px;
+        width: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #imglinkedin {
+        height: 100px;
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    #mysocial p {
+        display: flex;
+        align-items: center;
+        margin-left: 12px;
+        font-size: 1.2em;
+    }
+
+    #mysocial span {
+        color: var(--vermelhoLayout);
+        font-weight: bolder;
+    }
+
+
 }
 
 /* Tablet landscape */
@@ -727,6 +784,13 @@ footer{
     height: 180px;
     width: 180px;
 }
+
+    /* Minhas redes na página sobre */
+    #mysocial h3 {
+        text-align: center;
+        font-size: 1.6em;
+        margin-bottom: 10px;
+    }
         
         
 }
