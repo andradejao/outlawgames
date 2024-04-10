@@ -502,6 +502,11 @@ footer{
         display: none;
     }
 
+    #TitleMaps{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
 
 /* Smartphone landscape */
 @media (min-width: 576px) {
@@ -845,8 +850,7 @@ footer{
     #maps2 {
         display: block;
         margin-left: 310px;
-    }
-        
+    } 
 }
 
 /* PC ou Notebook ou Tv FULL HD+ */
