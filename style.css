@@ -1,11 +1,11 @@
 /**
-Folha de estilo do site outlawgames.com
+Folha de estilo do site outlawgames
 @author João Andrade
 */
 
 /* importar fontes */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap%22');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 /* variáveis globais */
 :root {
@@ -22,13 +22,13 @@ Folha de estilo do site outlawgames.com
     margin: 0;
     padding: 0;
     border: 0;
-    
+
 }
 
 /* ------------LAYOUT------------ */
-    html {
-        scroll-behavior: smooth;
-    }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: "Oswald", sans-serif;
@@ -38,13 +38,12 @@ body {
 .Container {
     margin: 0 auto;
     padding: 30px 15px 30px 15px;
-
 }
 
-.Flex, .FlexMenu {
+.Flex,
+.FlexMenu {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .Flex {
@@ -73,9 +72,7 @@ body {
     flex-direction: row;
 }
 
-
 /* Customização dos cards */
-
 
 .FlexCard {
     display: flex;
@@ -97,21 +94,21 @@ body {
     border-radius: 25px 25px 0px 0px;
 }
 
-.Card h3{
+.Card h3 {
     margin: 15px 30px 0px 30px;
     font-size: 1.5em;
 }
 
-.Card p{
+.Card p {
     padding: 10px 10px 50px 15px;
     text-align: center;
     color: var(--cinzaText);
     font-size: 1em;
-
 }
 
 
-.Button { /* Botão do cartão */
+.Button {
+    /* Botão do cartão */
     text-decoration: none;
     background-color: var(--vermelhoLayout);
     color: var(--brancoLayout);
@@ -121,7 +118,8 @@ body {
     font-weight: 700;
 }
 
-.Button:hover { /* Botão do cartão */
+.Button:hover {
+    /* Botão do cartão */
     text-decoration: none;
     background-color: var(--vermelhoLayout);
     color: var(--brancoLayout);
@@ -131,7 +129,8 @@ body {
     font-weight: 700;
 }
 
-.Button2 { /* Botão do banner */
+.Button2 {
+    /* Botão do banner */
     text-decoration: none;
     background-color: var(--brancoLayout);
     color: var(--vermelhoLayout);
@@ -141,7 +140,8 @@ body {
     font-weight: 900;
 }
 
-.Buttonyt { /* Botão do youtube */
+.Buttonyt {
+    /* Botão do youtube */
     text-decoration: none;
     background-color: var(--brancoLayout);
     color: var(--vermelhoLayout);
@@ -151,7 +151,8 @@ body {
     font-weight: 700;
 }
 
-.Buttonzap { /* Botão do zap */
+.Buttonzap {
+    /* Botão do zap */
     text-decoration: none;
     background-color: var(--pretoSombra);
     color: var(--corzap);
@@ -161,11 +162,9 @@ body {
     font-weight: 700;
 }
 
-
 .Container h2 {
     text-align: center;
 }
-
 
 /* Topo */
 
@@ -175,7 +174,6 @@ body {
     bottom: 1px;
     opacity: 0.7;
 }
-
 
 
 /* Smartphone portrait */
@@ -192,6 +190,7 @@ header {
 #check {
     display: none;
 }
+
 label {
     font-size: 3em;
     position: fixed;
@@ -206,10 +205,10 @@ nav ul {
     background-color: rgba(60, 60, 60, 0.95);
     height: 100vh;
     top: 89px;
-    right: -70%; /* estratégia para recolher o menu */
-    width: 60%; 
+    right: -70%;
+    /* estratégia para recolher o menu */
+    width: 60%;
     transition: all 0.5s;
-    
 }
 
 /* Ativar o checkbox referente ao ul (lista) */
@@ -222,21 +221,22 @@ nav ul li {
     text-align: center;
     padding: 8px;
 }
+
 nav ul li a {
     color: var(--vermelhoLayout);
     text-decoration: none;
     font-size: 1.3em;
     font-weight: 900;
-
 }
 
 /* BANNER */
 main {
     background: url(img/banner.jpg);
-    height: 40vh; /* vh é altura da tela */
+    height: 40vh;
+    /* vh é altura da tela */
     background-size: cover;
     background-position: center;
-    text-align: center;    
+    text-align: center;
 }
 
 main h1 {
@@ -246,6 +246,7 @@ main h1 {
     color: var(--brancoLayout);
     font-size: 2em;
 }
+
 main h2 {
     display: none;
 }
@@ -255,7 +256,7 @@ main h2 {
 }
 
 /* RODAPÉ */
-footer{
+footer {
     background-color: var(--vermelhoLayout);
     color: var(--brancoLayout);
     text-align: center;
@@ -263,8 +264,8 @@ footer{
 }
 
 #social {
-   margin-bottom: 10px;
-   flex-direction: column;
+    margin-bottom: 10px;
+    flex-direction: column;
 }
 
 /* Customização da Section Serviços */
@@ -286,7 +287,6 @@ footer{
     margin-bottom: 15px;
     color: var(--brancoLayout);
 }
-
 
 /* Customização da section youtube */
 #youtube {
@@ -311,7 +311,6 @@ footer{
 
 #exclusivos {
     color: var(--brancoLayout);
-    
 }
 
 /* Customizando título h2 do container */
@@ -328,7 +327,6 @@ footer{
     border-radius: 150px;
     margin-bottom: 20px;
     border: solid var(--vermelhoLayout);
-    
 }
 
 #imgsobre {
@@ -366,39 +364,44 @@ footer{
 }
 
 /* Section do sub-título da página ps4 */
-    #txtcontent {
-        text-align: center;
-    }
-    #txtcontent h3 {
-        margin-bottom: 5px;
-        color: var(--vermelhoLayout);
-    }
-    #txtcontent p {
-        text-align: justify;
-        color: var(--cinzaText);
-        font-size: 1em;
-    }
+#txtcontent {
+    text-align: center;
+}
+
+#txtcontent h3 {
+    margin-bottom: 5px;
+    color: var(--vermelhoLayout);
+}
+
+#txtcontent p {
+    text-align: justify;
+    color: var(--cinzaText);
+    font-size: 1em;
+}
 
 /* Section texto dos serviços */
-    .txtservicos {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        margin-left: 30px;
-    }
-    .conteudoflex h4{
-        font-size: 1.2em;
-        margin-left: 16px;
-        margin-bottom: 1px;
-    }
-    .conteudoflex p {
-        font-size: 1em;
-    }
-    .simbolo {
-        color: var(--vermelhoLayout);
-    }
+.txtservicos {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 30px;
+}
 
-    /* Customização da section whatsapp */
+.conteudoflex h4 {
+    font-size: 1.2em;
+    margin-left: 16px;
+    margin-bottom: 1px;
+}
+
+.conteudoflex p {
+    font-size: 1em;
+}
+
+.simbolo {
+    color: var(--vermelhoLayout);
+}
+
+/* Customização da section whatsapp */
 .zap {
     background-color: var(--cinzaText);
     height: 245px;
@@ -426,86 +429,86 @@ footer{
 }
 
 /* Minhas redes na página sobre */
-    #mysocial h3 {
-        text-align: center;
-        font-size: 1.1em;
-        margin-bottom: 10px;
-    }
+#mysocial h3 {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
 
-    #imggithub {
-        height: 92px;
-        width: 92px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+#imggithub {
+    height: 92px;
+    width: 92px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-    #imglinkedin {
-        height: 80px;
-        width: 80px;
-        margin-left: 6px;
-    }
+#imglinkedin {
+    height: 80px;
+    width: 80px;
+    margin-left: 6px;
+}
 
-    #mysocial p {
-        display: flex;
-        align-items: center;
-        margin-left: 12px;
-        font-size: 1em;
-    }
+#mysocial p {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    font-size: 1em;
+}
 
-    #mysocial span {
-        color: var(--vermelhoLayout);
-        font-weight: bolder;
-    }
+#mysocial span {
+    color: var(--vermelhoLayout);
+    font-weight: bolder;
+}
 
-    /* Formatação do formulário */
-   #formulario input[type="text"], 
-   #formulario input[type="email"],
-   #formulario input[type="tel"],
-   #formulario textarea {
-        margin-top: 7px;
-        width: 100%;
-        box-sizing: border-box;
-        padding: 10px;
-        border-radius: 5px;
-        border: 1px solid #cccccc;  
-    }
-    
-    #formulario input[type="submit"],
-    #formulario input[type="reset"] {
-        background-color: var(--vermelhoLayout);
-        border: none;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-left: 1px;
-    }
-    
-    #formulario input[type="reset"] {
-        background-color: var(--vermelhoLayout);
-    }
-    
-    #formulario h2 {
-        text-align: center;
-        margin: 50px 0px 25px 0px;
-    }
-    
-    #formulario form {
-        background-color: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0,0,0, 0.1); 
-    }
+/* Formatação do formulário */
+#formulario input[type="text"],
+#formulario input[type="email"],
+#formulario input[type="tel"],
+#formulario textarea {
+    margin-top: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
 
-    /* Google Maps */
-    #maps2{
-        display: none;
-    }
+#formulario input[type="submit"],
+#formulario input[type="reset"] {
+    background-color: var(--vermelhoLayout);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1px;
+}
 
-    #TitleMaps{
-        text-align: center;
-        margin-bottom: 20px;
-    }
+#formulario input[type="reset"] {
+    background-color: var(--vermelhoLayout);
+}
+
+#formulario h2 {
+    text-align: center;
+    margin: 50px 0px 25px 0px;
+}
+
+#formulario form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Google Maps */
+#maps2 {
+    display: none;
+}
+
+#TitleMaps {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 
 /* Smartphone landscape */
@@ -520,22 +523,25 @@ footer{
         max-width: 540px;
         margin: auto;
     }
-    } 
-    .Flex {
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
-    }     
-    /* BANNER */
-    main {
-        height: 65vh;
-    }
-    main h1 {
-        font-size: 1.7em;
-    }
+}
 
-    #social {
-        margin-bottom: 0;
+.Flex {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* BANNER */
+main {
+    height: 65vh;
+}
+
+main h1 {
+    font-size: 1.7em;
+}
+
+#social {
+    margin-bottom: 0;
 }
 
 /* Tablet portrait */
@@ -543,38 +549,46 @@ footer{
     .Container {
         max-width: 720px;
     }
+
     /* Cabeçalho */
-    header{
+    header {
         max-width: 720px;
         height: 145px;
 
     }
+
     label {
         font-size: 5em;
         top: 25px;
-        right: 5px; 
+        right: 5px;
     }
+
     #logo img {
         width: 150px;
         height: 150px;
     }
+
     .textbanner {
         font-size: 5em;
     }
-    nav ul{
+
+    nav ul {
         top: 145px;
         right: -50%;
         width: 50%;
     }
+
     nav ul li a {
         font-size: 2.7em;
     }
+
     /* BANNER */
     main h1 {
         font-size: 2.3em;
         font-weight: 600;
         margin-bottom: 25px;
     }
+
     main h2 {
         display: block;
         font-size: 1.7em;
@@ -587,14 +601,14 @@ footer{
     /* Section Serviços */
 
     .TopicosSection img {
-    border-radius: 10px;
-    margin: 5px;
+        border-radius: 10px;
+        margin: 5px;
     }
 
     #sectionTitle h2 {
-    font-size: 2.2em;
-    margin-bottom: 20px;
-    color: var(--brancoLayout);
+        font-size: 2.2em;
+        margin-bottom: 20px;
+        color: var(--brancoLayout);
     }
 
     /* Customizando section youtube */
@@ -611,12 +625,12 @@ footer{
         height: 200px;
         width: 200px;
     }
-    
+
     #textyoutube h2 {
         font-size: 2.9em;
         margin-bottom: 10px;
     }
-    
+
     #textyoutube p {
         font-size: 1.6em;
         margin-bottom: 25px;
@@ -626,25 +640,27 @@ footer{
     #txtsobre h2 {
         font-size: 2.5em;
     }
+
     #txtsobre p {
         font-size: 1.5em;
     }
 
-/* Section do sub-título da página ps4 */
+    /* Section do sub-título da página ps4 */
 
-#txtcontent h3 {
-    font-size: 1.7em;
-}
-#txtcontent p {
-    font-size: 1.4em;
-}
+    #txtcontent h3 {
+        font-size: 1.7em;
+    }
+
+    #txtcontent p {
+        font-size: 1.4em;
+    }
 
     /* img página ps4 */
 
     #imgps4 h2 {
         font-size: 2.5em;
     }
-    
+
     #imgps4 img {
         height: 400px;
         width: 700px;
@@ -652,12 +668,12 @@ footer{
 
     /* Customizando section youtube */
 
-    
+
     .textzap h2 {
         font-size: 2.9em;
         margin-bottom: 10px;
     }
-    
+
     .textzap p {
         font-size: 1.6em;
         margin-bottom: 25px;
@@ -703,6 +719,7 @@ footer{
     .Container {
         max-width: 960px;
     }
+
     header {
         max-width: 960px;
 
@@ -713,12 +730,14 @@ footer{
 @media (min-width: 1200px) {
     .Container {
         max-width: 1140px;
-   }
-   header {
-    max-width: 1140px;
+    }
 
-}
-    label{
+    header {
+        max-width: 1140px;
+
+    }
+
+    label {
         display: none;
     }
 
@@ -729,10 +748,12 @@ footer{
         background-color: var(--brancoLayout);
         margin: 70px;
     }
+
     nav ul li {
         border: 0;
         float: left;
     }
+
     nav ul li a {
         color: var(--pretoSombra);
         font-size: 1.5em;
@@ -743,98 +764,103 @@ footer{
     }
 
 
-   /* BANNER */
-   main {
-    height: 65vh;
-   }
+    /* BANNER */
+    main {
+        height: 65vh;
+    }
 
-   main h1 {
-    font-size: 3em;
-   }
-   main h2 {
-    font-size: 1.5em;
-    text-shadow: var(--pretoSombra) 0.05em 0.05em 0.05em;
-   }
+    main h1 {
+        font-size: 3em;
+    }
 
-   /* Customizando youtube */
-   #textyoutube h2 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
+    main h2 {
+        font-size: 1.5em;
+        text-shadow: var(--pretoSombra) 0.05em 0.05em 0.05em;
+    }
 
-#textyoutube p {
-    font-size: 1.6em;
-    margin-bottom: 25px;
-}
+    /* Customizando youtube */
+    #textyoutube h2 {
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
 
-#imagemyoutube img {
-    margin-left: 200px;
-    height: 220px;
-    width: 220px;
-}
+    #textyoutube p {
+        font-size: 1.6em;
+        margin-bottom: 25px;
+    }
 
-/* Seção Sobre */
-#txtsobre h2 {
+    #imagemyoutube img {
+        margin-left: 200px;
+        height: 220px;
+        width: 220px;
+    }
+
+    /* Seção Sobre */
+    #txtsobre h2 {
         font-size: 2.5em;
-}
-#txtsobre p {
+    }
+
+    #txtsobre p {
         font-size: 1.1em;
-}
+    }
 
-/* Section do sub-título da página ps4 */
+    /* Section do sub-título da página ps4 */
 
-#txtcontent h3 {
-    font-size: 1.7em;
-}
-#txtcontent p {
-    font-size: 1.4em;
+    #txtcontent h3 {
+        font-size: 1.7em;
+    }
 
-}
+    #txtcontent p {
+        font-size: 1.4em;
+
+    }
 
     /* img página ps4 */
 
     #imgps4 h2 {
         font-size: 2.5em;
     }
-    
+
     #imgps4 img {
         height: 400px;
         width: 700px;
     }
 
-        /* Section texto dos serviços */
-        .txtservicos {
-            display: flex;
-            flex-direction: row;
-        }
+    /* Section texto dos serviços */
+    .txtservicos {
+        display: flex;
+        flex-direction: row;
+    }
 
-        #txtcontent p {
-            text-align: center;
+    #txtcontent p {
+        text-align: center;
 
-        }
+    }
 
     .conteudoflex {
         margin-left: 230px;
     }
 
     /* Customizando zap */
-   .textzap h2 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
+    .textzap h2 {
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+
     .textzap p {
-    font-size: 1.6em;
-    margin-bottom: 25px;
-}
+        font-size: 1.6em;
+        margin-bottom: 25px;
+    }
 
     .imagemzap {
-    display: block;
-}
+        display: block;
+    }
+
     .imagemzap img {
-    margin-left: 600px;
-    height: 180px;
-    width: 180px;
-}
+        margin-left: 600px;
+        height: 180px;
+        width: 180px;
+    }
 
     /* Minhas redes na página sobre */
     #mysocial h3 {
@@ -845,12 +871,13 @@ footer{
 
     /* Google Maps */
     #maps1 {
-    display: none;
+        display: none;
     }
+
     #maps2 {
         display: block;
         margin-left: 310px;
-    } 
+    }
 }
 
 /* PC ou Notebook ou Tv FULL HD+ */
@@ -858,6 +885,7 @@ footer{
     .Container {
         max-width: 1360px;
     }
+
     header {
         max-width: 1360px;
 
